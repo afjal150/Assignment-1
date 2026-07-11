@@ -48,7 +48,7 @@ nav .navlist ul {
     font-size: 70px;
 }
 .btn {
-    margin-top: 78px;
+    margin-top: 40px;
     font-size: 19px;
     padding: 15px 40px;
     border: none;
@@ -279,9 +279,7 @@ nav .navlist ul {
 }
 .fhr {
      width: 100%;
-
 }
-
 .final {
         padding: 20px 2%;
         color: rgb(174, 171, 171);
