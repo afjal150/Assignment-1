@@ -32,7 +32,7 @@ nav .navlist ul {
 /*heading background image after nav */
 
 .backgroundimage {
-    background-image: url("./assets/banner.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/banner.jpg");
     height: 120vh;
     background-size: cover;
     background-repeat: no_repeat;
@@ -72,9 +72,10 @@ nav .navlist ul {
     color: #2563EB;
 }
 .instructors {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
     margin: 0 4.5%;
     margin-bottom: 50px;
 
@@ -117,9 +118,10 @@ nav .navlist ul {
 }
 
 .pricing {
-    margin: 0 12%;
+    margin: 0 10%;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .standard {
@@ -204,3 +206,101 @@ nav .navlist ul {
         font-size: 15px;
 }
      
+.bottomblack {
+    padding: 20px 2%;
+    display: flex;
+    color: rgba(157, 156, 156, 0.503);
+    justify-content: space-between;
+    background-color: #0D1B2A;
+}
+.bottomblack div {
+    display: flex;
+    gap: 30px
+}
+
+/* gpt part */
+
+.schedule-section{
+    padding:80px 10%;
+    background:#f5f7fa;
+}
+
+.schedule-container{
+    max-width:1000px;
+    margin:auto;
+}
+
+.schedule-section h2{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:10px;
+    color:#1a1a1a;
+}
+
+.schedule-subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:50px;
+}
+
+.schedule-card{
+    display:flex;
+    align-items:center;
+    gap:30px;
+
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+}
+
+.schedule-card:hover{
+    transform:translateY(-5px);
+}
+
+.time{
+    min-width:120px;
+    font-size:22px;
+    font-weight:bold;
+    color:#0077ff;
+}
+
+.event-info h3{
+    margin-bottom:8px;
+    color:#222;
+}
+
+.event-info p{
+    color:#666;
+}
+.fhr {
+     width: 100%;
+    color: rgb(220, 218, 218);
+}
+
+.final {
+        padding: 20px 2%;
+        color: rgba(221, 219, 219, 0.964);
+        background-color: #0D1B2A;
+}
+.final .info {
+    line-height: 40px;
+    list-style: none;
+
+}
+.followcontainer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+.icons {
+   display: flex;
+   gap: 20px;
+}
+.follow h3 {
+    padding-left: 5px;
+}
