@@ -17,7 +17,7 @@ nav .navlist ul {
     text-decoration: none;
 }
 
-    a {
+.navlist ul li  a {
         text-decoration: none;
         color: #575757;
     }
@@ -209,7 +209,7 @@ nav .navlist ul {
 .bottomblack {
     padding: 20px 2%;
     display: flex;
-    color: rgba(157, 156, 156, 0.503);
+    color: rgba(199, 199, 199, 0.678);
     justify-content: space-between;
     background-color: #0D1B2A;
 }
@@ -279,18 +279,22 @@ nav .navlist ul {
 }
 .fhr {
      width: 100%;
-    color: rgb(220, 218, 218);
+
 }
 
 .final {
         padding: 20px 2%;
-        color: rgba(221, 219, 219, 0.964);
+        color: rgb(174, 171, 171);
         background-color: #0D1B2A;
 }
-.final .info {
+.final .inf {
     line-height: 40px;
     list-style: none;
-
+}
+.inf a {
+    text-decoration: none;
+    list-style: none;
+    color: rgba(225, 223, 223, 0.624);
 }
 .followcontainer {
     display: flex;
