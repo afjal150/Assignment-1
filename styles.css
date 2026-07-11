@@ -1,0 +1,206 @@
+/* ./assets/image.png */
+* {
+      font-family: "Inter", sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+
+}
+
+nav .navlist ul {
+    display: flex;
+    padding: 0 20px;
+    list-style: none;
+    gap: 24px;
+    text-decoration: none;
+}
+
+    a {
+        text-decoration: none;
+        color: #575757;
+    }
+
+.button {
+ padding: 10px 35px;
+ border-radius: 10px;
+ border: none;
+ color: white;
+ background-color: #1D4ED8;
+}
+/*heading background image after nav */
+
+.backgroundimage {
+    background-image: url("./assets/banner.jpg");
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no_repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.connect {
+    font-size: 70px;
+}
+.btn {
+    margin-top: 78px;
+    font-size: 19px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+     background-color: #1D4ED8;
+}
+.backgrounddescription {
+    margin-bottom: 270px
+}
+/* after background part */
+.meet {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 40px;
+
+}
+/* instructors section */
+.designations {
+    color: #2563EB;
+}
+.instructors {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 4.5%;
+    margin-bottom: 50px;
+
+}
+.instructorborder {
+            border: 1px solid rgb(220, 218, 218);
+            border-radius: 10px;
+            
+}
+.imgborder {
+    border: 1px solid rgb(220, 218, 218);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+        width: 100%;
+}
+.fontweight {
+    font-size: 20px;
+    font-weight: bold;
+}
+.career {
+    color: #575757;
+}
+.andrea {
+    padding: 5px 30px;
+    line-height: 13px;
+}
+/* pricint part */
+
+.pcontainer {
+    text-align: center;
+    line-height: 10px;
+}
+.secure {
+    padding-top:  50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.pricing {
+    margin: 0 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.standard {
+    margin-left: 10px;
+    padding: 10px 15px;
+    line-height: 3px;
+    font-size: 12px;
+}
+.updownprice {
+        color: #888888;
+}
+.mbold {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.boxshadow {
+    margin-top: 40px;
+   border: 1px solid rgb(220, 218, 218);
+    border-radius: 10px;
+    padding: 0 20px;
+    width: 300px;
+
+}
+.boxshadowmiddle {
+        margin-top: 40px;
+    background-color: #0D1B2A;
+    color: white;
+       border: 1px solid rgb(220, 218, 218);
+    border-radius: 10px;
+    padding: 0 20px;
+    width: 300px
+}
+.markermiddle li::marker {
+      color: blue;
+}
+.markermiddle li {
+    color: rgb(202, 199, 199);
+    line-height: 30px;
+}
+.pro {
+    color: #60A5FA;
+}
+
+.belowcost {
+    color:  rgb(218, 215, 215);
+}
+
+.bar {
+    width: 100%;
+    color: rgb(220, 218, 218);
+}
+
+.marker li::marker {
+  color: blue;
+}
+
+.marker li {
+    line-height: 30px;
+    color: #575757;
+}
+
+
+.lastbutton {
+    padding: 10px 30% ;
+    margin-left: 24px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border-color: #2563EB;
+    color: #2563EB;
+    background-color: white;
+    font-size: 15px;
+}
+.lastmiddlebutton {
+    padding: 10px 34% ;
+    margin-left: 24px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border-color: #2563EB;
+    color: white;
+    background-color: #2563EB;
+        font-size: 15px;
+}
+     
